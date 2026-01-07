@@ -18,16 +18,17 @@ const Internal = () => {
     documentViewer.loadDocument("/files/demo.pdf");
 
     return () => {
-      documentViewer.closeDocument();
-      documentViewer.dispose();
-      documentViewer.unmount();
+      if (documentViewer.getDocument()) {
+        documentViewer.getDocument().unloadResources();
+      }
+      documentViewer.closeDocument().then(() => {
+        documentViewer.dispose();
 
-      scrollView.current = null;
-      viewer.current = null;
-
-      documentViewer = null;
-
-      Core = null;
+        scrollView.current = null;
+        viewer.current = null;
+        documentViewer = null;
+        Core = null;
+      });
     };
   }, []);
 
