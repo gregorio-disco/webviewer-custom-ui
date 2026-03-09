@@ -1,0 +1,324 @@
+Starting WebViewer Memory Test...
+Version: 11.3.0 (baseline)
+Navigating to http://localhost:3000...
+Found toggle button
+Initial memory: { used: '12.76 MB', total: '18.76 MB' }
+
+Running 100 mount/unmount cycles...
+  Cycle 1/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 2/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 3/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 4/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 5/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 6/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 7/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 8/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 9/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 10/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 11/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 12/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 13/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 14/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 15/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 16/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 17/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 18/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 19/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 20/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 21/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 22/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 23/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 24/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 25/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 26/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 27/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 28/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 29/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 30/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 31/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 32/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 33/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 34/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 35/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 36/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 37/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 38/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 39/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 40/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 41/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 42/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 43/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 44/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 45/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 46/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 47/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 48/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 49/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 50/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 51/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 52/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 53/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 54/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 55/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 56/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 57/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 58/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 59/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 60/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 61/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 62/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 63/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 64/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 65/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 66/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 67/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 68/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 69/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 70/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 71/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 72/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 73/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 74/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 75/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 76/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 77/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 78/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 79/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 80/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 81/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 82/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 83/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 84/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 85/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 86/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 87/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 88/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 89/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 90/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 91/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 92/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 93/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 94/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 95/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 96/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 97/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 98/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 99/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+  Cycle 100/100
+    - Clicked toggle (mounting viewer)
+    - Clicked toggle (unmounting viewer)
+
+Running final garbage collection...
+
+Final memory: { used: '16.86 MB', total: '20.32 MB' }
+
+========================================
+RESULTS
+========================================
+WebViewer Version: 11.3.0
+Cycles: 100
+Memory Delta: 4.10 MB (32.13%)
+Jenkins Threshold: 70.00 MB
+Status: PASS ✅
+========================================
+
+Browser staying open for 10 seconds for inspection...
+Test completed successfully

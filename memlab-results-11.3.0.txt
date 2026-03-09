@@ -1,0 +1,183 @@
+page-load(baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Connecting to web server...
+[KCheck timeout '/' set wait: 2000ms
+[Krunning a full GC...
+[KHeap size: 6.8MB
+taking screenshot...
+[Kheap snapshot 0% complete
+[Kheap snapshot 5% complete
+[Kheap snapshot 11% complete
+[Kheap snapshot 17% complete
+[Kheap snapshot 22% complete
+[Kheap snapshot 28% complete
+[Kheap snapshot 34% complete
+[Kheap snapshot 39% complete
+[Kheap snapshot 45% complete
+[Kheap snapshot 51% complete
+[Kheap snapshot 56% complete
+[Kheap snapshot 62% complete
+[Kheap snapshot 68% complete
+[Kheap snapshot 74% complete
+[Kheap snapshot 79% complete
+[Kheap snapshot 85% complete
+[Kheap snapshot 91% complete
+[Kheap snapshot 96% complete
+[Kheap snapshot 99% complete
+[Kheap snapshot 100% complete
+[Kheap snapshot 100% complete
+[Ksnapshot saved to disk
+[K
+[K[F[K[K[Kpage-load[6.8MB](baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+importAnnotations was called before the document was loaded. Please wait for the 'documentLoaded' event before calling 'importAnnotations'. See https://docs.apryse.com/documentation/web/guides/documentviewer/ for more info.
+oa.jE (http://localhost:3000/webviewer/webviewer-core.min.js:547:319)
+http://localhost:3000/webviewer/webviewer-core.min.js:358:105
+Check timeout '/' set wait: 2000ms
+[Krunning a full GC...
+[KHeap size: 10.3MB
+taking screenshot...
+[Kheap snapshot 0% complete
+[Kheap snapshot 4% complete
+[Kheap snapshot 8% complete
+[Kheap snapshot 12% complete
+[Kheap snapshot 17% complete
+[Kheap snapshot 21% complete
+[Kheap snapshot 25% complete
+[Kheap snapshot 30% complete
+[Kheap snapshot 34% complete
+[Kheap snapshot 38% complete
+[Kheap snapshot 42% complete
+[Kheap snapshot 47% complete
+[Kheap snapshot 51% complete
+[Kheap snapshot 55% complete
+[Kheap snapshot 60% complete
+[Kheap snapshot 64% complete
+[Kheap snapshot 68% complete
+[Kheap snapshot 72% complete
+[Kheap snapshot 77% complete
+[Kheap snapshot 81% complete
+[Kheap snapshot 85% complete
+[Kheap snapshot 90% complete
+[Kheap snapshot 94% complete
+[Kheap snapshot 98% complete
+[Kheap snapshot 99% complete
+[Kheap snapshot 100% complete
+[Kheap snapshot 100% complete
+[Ksnapshot saved to disk
+[K
+[K[F[K[K[K[Kpage-load[6.8MB](baseline)[s1] > action-on-page[10.3MB](target)[s2] > revert(final)[s3]  
+Check timeout '/' set wait: 2000ms
+[Krunning a full GC...
+[KHeap size: 9.7MB
+taking screenshot...
+[Kheap snapshot 0% complete
+[Kheap snapshot 4% complete
+[Kheap snapshot 9% complete
+[Kheap snapshot 13% complete
+[Kheap snapshot 18% complete
+[Kheap snapshot 22% complete
+[Kheap snapshot 27% complete
+[Kheap snapshot 32% complete
+[Kheap snapshot 36% complete
+[Kheap snapshot 41% complete
+[Kheap snapshot 45% complete
+[Kheap snapshot 50% complete
+[Kheap snapshot 55% complete
+[Kheap snapshot 59% complete
+[Kheap snapshot 64% complete
+[Kheap snapshot 68% complete
+[Kheap snapshot 73% complete
+[Kheap snapshot 78% complete
+[Kheap snapshot 82% complete
+[Kheap snapshot 87% complete
+[Kheap snapshot 91% complete
+[Kheap snapshot 96% complete
+[Kheap snapshot 99% complete
+[Kheap snapshot 100% complete
+[Kheap snapshot 100% complete
+[Ksnapshot saved to disk
+[K
+[K[F[K[K[Kpage-load[6.8MB](baseline)[s1] > action-on-page[10.3MB](target)[s2] > revert[9.7MB](final)[s3]  
+
+total time: 48.6s
+Memory usage across all steps:
+11.8 
+10.5 
+ 9.1 
+ 7.8 
+ 6.4 
+ 5.1 
+ 3.7 
+ 2.4 
+ 1.0 
+     
+
+lightweight parsing /var/folders/tp/tjgr9qdj2t10y1tp0ws__h_40000gn/T/memlab/data/cur/s1.heapsnapshot ...
+[Klightweight parsing /var/folders/tp/tjgr9qdj2t10y1tp0ws__h_40000gn/T/memlab/data/cur/s2.heapsnapshot ...
+[Kparsing /var/folders/tp/tjgr9qdj2t10y1tp0ws__h_40000gn/T/memlab/data/cur/s3.heapsnapshot ...
+[Kcalculating basic meta info...
+[Kbuilding reference index...
+[Kbuilding referrers index...
+[Kpropagating detachedness state...
+[Kbuilding node index...
+[Kbuilding location index...
+[Kbuilding extra meta info...
+[Kidentifying snapshot engine...
+[Kannotating shortest path for all nodes
+[Kcalculating dominators and retained sizes .
+[Kcalculating dominators and retained sizes ..
+[Kcalculating dominators and retained sizes ...
+[Kcalculating dominators and retained sizes .
+[Kcalculating dominators and retained sizes ..
+[Kcalculating dominators and retained sizes ...
+[Kmarking all detached Fiber nodes...
+[Kmarking alternate Fiber nodes...
+[Kprogress: 0 / 209 (0%)
+[KClustering leak traces
+[Kclustering trace: 0 / 209
+[Kclustering trace: 17 / 209
+[Kclustering trace: 34 / 209
+[Kclustering trace: 51 / 209
+[Kclustering trace: 68 / 209
+[Kclustering trace: 85 / 209
+[Kclustering trace: 102 / 209
+[Kclustering trace: 119 / 209
+[Kclustering trace: 136 / 209
+[Kclustering trace: 153 / 209
+[Kclustering trace: 170 / 209
+[Kclustering trace: 187 / 209
+[Kclustering trace: 204 / 209
+[K
+[K[F[KMemLab found 1 leak(s)
+Number of clusters loaded: 0
+Diffing clusters
+[Kclustering trace: 0 / 1
+[K
+[K[F[K
+--Similar leaks in this run: 209--
+--Retained size of leaked objects: 206.4KB--
+[Window / http://localhost:3000] (native) @51549 [3.2KB]
+  --global_object (shortcut)--->  [Window (global*) / http://localhost:3000] (object) @62529 [401.5KB]
+  --n9 (property)--->  [<closure>] (closure) @64345 [80 bytes]
+  --context (internal)--->  [<function scope>] (object) @286701 [4.8KB]
+  --h (variable)--->  [Object] (object) @96775 [480 bytes]
+  --get c (property)--->  [<closure>] (closure) @226391 [80 bytes]
+  --context (internal)--->  [<function scope>] (object) @194201 [1.3KB]
+  --ka (variable)--->  [Object] (object) @194209 [500 bytes]
+  --disableLogs (property)--->  [Map] (object) @434009 [400 bytes]
+  --table (internal)--->  [<array>] (array) @442233 [384 bytes]
+  --6 (internal)--->  [<closure>] (closure) @442231 [292 bytes]
+  --context (internal)--->  [<function scope>] (object) @442143 [212 bytes]
+  --previous (internal)--->  [<function scope>] (object) @442123 [104 bytes]
+  --La (variable)--->  [ba] (object) @442125 [398.6KB]
+  --$u (property)--->  [Object] (object) @442155 [398.2KB]
+  --1 (element)--->  [<closure>] (closure) @442169 [398KB]
+  --context (internal)--->  [<function scope>] (object) @442587 [398KB]
+  --Aa (variable)--->  [h] (object) @431719 [397.9KB]
+  --Li (property)--->  [oa] (object) @431665 [187.5KB]
+  --PB (property)--->  [La] (object) @431717 [186.3KB]
+  --gj (property)--->  [Detached Window] (native) @360643 [183.1KB]
+  --23 (element)--->  [Detached InternalNode] (native) @6974 [1.2KB]
+  --3 (element)--->  [Detached InternalNode] (native) @6992 [1.2KB]
+  --1 (element)--->  [Detached Performance] (native) @2620 [1.2KB]
+  --4 (element)--->  [Detached PerformanceNavigationTiming] (native) @6146 [168 bytes]
+

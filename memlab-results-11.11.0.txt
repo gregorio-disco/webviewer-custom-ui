@@ -1,0 +1,252 @@
+page-load(baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Connecting to web server...
+[KCheck timeout '/' set wait: 2000ms
+[Krunning a full GC...
+[KHeap size: 7.3MB
+taking screenshot...
+[Kheap snapshot 0% complete
+[Kheap snapshot 5% complete
+[Kheap snapshot 10% complete
+[Kheap snapshot 15% complete
+[Kheap snapshot 21% complete
+[Kheap snapshot 26% complete
+[Kheap snapshot 31% complete
+[Kheap snapshot 37% complete
+[Kheap snapshot 42% complete
+[Kheap snapshot 47% complete
+[Kheap snapshot 52% complete
+[Kheap snapshot 58% complete
+[Kheap snapshot 63% complete
+[Kheap snapshot 68% complete
+[Kheap snapshot 74% complete
+[Kheap snapshot 79% complete
+[Kheap snapshot 84% complete
+[Kheap snapshot 89% complete
+[Kheap snapshot 95% complete
+[Kheap snapshot 99% complete
+[Kheap snapshot 100% complete
+[Kheap snapshot 100% complete
+[Ksnapshot saved to disk
+[K
+[K[F[K[K[Kpage-load[7.3MB](baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Cannot read properties of null (reading 'nsa')
+http://localhost:3000/webviewer/webviewer-core.min.js:813:506
+Cannot read properties of null (reading 'nsa')
+http://localhost:3000/webviewer/webviewer-core.min.js:813:506
+Check timeout '/' set wait: 2000ms
+[Krunning a full GC...
+[KHeap size: 10.8MB
+taking screenshot...
+[Kheap snapshot 0% complete
+[Kheap snapshot 4% complete
+[Kheap snapshot 8% complete
+[Kheap snapshot 12% complete
+[Kheap snapshot 17% complete
+[Kheap snapshot 21% complete
+[Kheap snapshot 25% complete
+[Kheap snapshot 30% complete
+[Kheap snapshot 34% complete
+[Kheap snapshot 38% complete
+[Kheap snapshot 42% complete
+[Kheap snapshot 47% complete
+[Kheap snapshot 51% complete
+[Kheap snapshot 55% complete
+[Kheap snapshot 60% complete
+[Kheap snapshot 64% complete
+[Kheap snapshot 68% complete
+[Kheap snapshot 72% complete
+[Kheap snapshot 77% complete
+[Kheap snapshot 81% complete
+[Kheap snapshot 85% complete
+[Kheap snapshot 90% complete
+[Kheap snapshot 94% complete
+[Kheap snapshot 98% complete
+[Kheap snapshot 99% complete
+[Kheap snapshot 100% complete
+[Kheap snapshot 100% complete
+[Ksnapshot saved to disk
+[K
+[K[F[K[K[K[K[Kpage-load[7.3MB](baseline)[s1] > action-on-page[10.8MB](target)[s2] > revert(final)[s3]  
+Check timeout '/' set wait: 2000ms
+[Krunning a full GC...
+[KHeap size: 10.8MB
+taking screenshot...
+[Kheap snapshot 0% complete
+[Kheap snapshot 4% complete
+[Kheap snapshot 8% complete
+[Kheap snapshot 12% complete
+[Kheap snapshot 17% complete
+[Kheap snapshot 21% complete
+[Kheap snapshot 25% complete
+[Kheap snapshot 30% complete
+[Kheap snapshot 34% complete
+[Kheap snapshot 38% complete
+[Kheap snapshot 43% complete
+[Kheap snapshot 47% complete
+[Kheap snapshot 51% complete
+[Kheap snapshot 55% complete
+[Kheap snapshot 60% complete
+[Kheap snapshot 64% complete
+[Kheap snapshot 68% complete
+[Kheap snapshot 73% complete
+[Kheap snapshot 77% complete
+[Kheap snapshot 81% complete
+[Kheap snapshot 86% complete
+[Kheap snapshot 90% complete
+[Kheap snapshot 94% complete
+[Kheap snapshot 98% complete
+[Kheap snapshot 99% complete
+[Kheap snapshot 100% complete
+[Kheap snapshot 100% complete
+[Ksnapshot saved to disk
+[K
+[K[F[K[K[Kpage-load[7.3MB](baseline)[s1] > action-on-page[10.8MB](target)[s2] > revert[10.8MB](final)[s3]  
+
+total time: 50.7s
+Memory usage across all steps:
+12.4 
+11.0 
+ 9.6 
+ 8.1 
+ 6.7 
+ 5.3 
+ 3.9 
+ 2.4 
+ 1.0 
+     
+
+lightweight parsing /var/folders/tp/tjgr9qdj2t10y1tp0ws__h_40000gn/T/memlab/data/cur/s1.heapsnapshot ...
+[Klightweight parsing /var/folders/tp/tjgr9qdj2t10y1tp0ws__h_40000gn/T/memlab/data/cur/s2.heapsnapshot ...
+[Kparsing /var/folders/tp/tjgr9qdj2t10y1tp0ws__h_40000gn/T/memlab/data/cur/s3.heapsnapshot ...
+[Kcalculating basic meta info...
+[Kbuilding reference index...
+[Kbuilding referrers index...
+[Kpropagating detachedness state...
+[Kbuilding node index...
+[Kbuilding location index...
+[Kbuilding extra meta info...
+[Kidentifying snapshot engine...
+[Kannotating shortest path for all nodes
+[Kcalculating dominators and retained sizes .
+[Kcalculating dominators and retained sizes ..
+[Kcalculating dominators and retained sizes ...
+[Kcalculating dominators and retained sizes .
+[Kcalculating dominators and retained sizes ..
+[Kcalculating dominators and retained sizes ...
+[Kmarking all detached Fiber nodes...
+[Kmarking alternate Fiber nodes...
+[Kprogress: 0 / 761 (0%)
+[KClustering leak traces
+[Kclustering trace: 0 / 761
+[Kclustering trace: 17 / 761
+[Kclustering trace: 34 / 761
+[Kclustering trace: 51 / 761
+[Kclustering trace: 68 / 761
+[Kclustering trace: 85 / 761
+[Kclustering trace: 102 / 761
+[Kclustering trace: 119 / 761
+[Kclustering trace: 136 / 761
+[Kclustering trace: 153 / 761
+[Kclustering trace: 170 / 761
+[Kclustering trace: 187 / 761
+[Kclustering trace: 204 / 761
+[Kclustering trace: 221 / 761
+[Kclustering trace: 238 / 761
+[Kclustering trace: 255 / 761
+[Kclustering trace: 272 / 761
+[Kclustering trace: 289 / 761
+[Kclustering trace: 306 / 761
+[Kclustering trace: 323 / 761
+[Kclustering trace: 340 / 761
+[Kclustering trace: 357 / 761
+[Kclustering trace: 374 / 761
+[Kclustering trace: 391 / 761
+[Kclustering trace: 408 / 761
+[Kclustering trace: 425 / 761
+[Kclustering trace: 442 / 761
+[Kclustering trace: 459 / 761
+[Kclustering trace: 476 / 761
+[Kclustering trace: 493 / 761
+[Kclustering trace: 510 / 761
+[Kclustering trace: 527 / 761
+[Kclustering trace: 544 / 761
+[Kclustering trace: 561 / 761
+[Kclustering trace: 578 / 761
+[Kclustering trace: 595 / 761
+[Kclustering trace: 612 / 761
+[Kclustering trace: 629 / 761
+[Kclustering trace: 646 / 761
+[Kclustering trace: 663 / 761
+[Kclustering trace: 680 / 761
+[Kclustering trace: 697 / 761
+[Kclustering trace: 714 / 761
+[Kclustering trace: 731 / 761
+[Kclustering trace: 748 / 761
+[K
+[K[F[KMemLab found 2 leak(s)
+Number of clusters loaded: 0
+Diffing clusters
+[Kclustering trace: 0 / 2
+[K
+[K[F[K
+--Similar leaks in this run: 586--
+--Retained size of leaked objects: 99.2KB--
+[Window / http://localhost:3000] (native) @53867 [3.2KB]
+  --global_object (shortcut)--->  [Window (global*) / http://localhost:3000] (object) @104421 [17.9KB]
+  --Core (property)--->  [<closure>] (closure) @106789 [21.3KB]
+  --isEmbeddedJavaScriptEnabled (property)--->  [<closure>] (closure) @143229 [80 bytes]
+  --context (internal)--->  [<function scope>] (object) @248333 [355.6KB]
+  --Gb (variable)--->  [Map] (object) @248501 [326.2KB]
+  --table (internal)--->  [<array>] (array) @248503 [326.2KB]
+  --6 (internal)--->  [<closure>] (closure) @396885 [326.1KB]
+  --context (internal)--->  [<function scope>] (object) @434357 [326KB]
+  --ya (variable)--->  [ja] (object) @423329 [326KB]
+  --pc (property)--->  [r] (object) @415387 [148.4KB]
+  --Wj (property)--->  [Detached <div id="virtualListBody"> (native) @387785 [94.8KB]
+  --3 (element)--->  [Detached <div id="pageSection1" class="pageSection"> (native) @387777 [8KB]
+  --7 (element)--->  [Detached <div id="pageSection2" class="pageSection"> (native) @387767 [14.8KB]
+  --3 (element)--->  [Detached <div id="pageContainer2" role="region" class="pageContainer" aria-label="Page 2" data-view... (native) @387723 [14.6KB]
+  --3 (element)--->  [Detached <canvas class="auxiliary" width="810" height="1048" aria-hidden="true" style="width: 810px... (native) @387991 [1.8KB]
+  --6 (element)--->  [Detached <div id="pageWidgetContainer2"> (native) @387999 [7.8KB]
+  --4 (element)--->  [Detached <div class=""> (native) @387001 [1.8KB]
+  --9 (element)--->  [Detached <div class=""> (native) @386991 [1.8KB]
+  --5 (element)--->  [Detached <span class="link" tabindex="0"> (native) @386995 [572 bytes]
+  --9 (element)--->  [Detached InternalNode] (native) @4160 [64 bytes]
+  --1 (element)--->  [Detached InternalNode] (native) @4114 [64 bytes]
+  --1 (element)--->  [Detached InternalNode] (native) @4116 [64 bytes]
+  --1 (element)--->  [Detached EventListener] (native) @5446 [64 bytes]
+
+
+--Similar leaks in this run: 175--
+--Retained size of leaked objects: 22KB--
+[Window / http://localhost:3000] (native) @53867 [3.2KB]
+  --global_object (shortcut)--->  [Window (global*) / http://localhost:3000] (object) @104421 [17.9KB]
+  --nva (property)--->  [ba] (closure) @106631 [80 bytes]
+  --context (internal)--->  [<function scope>] (object) @261919 [116 bytes]
+  --ia (variable)--->  [Object] (object) @147097 [356 bytes]
+  --get c (property)--->  [<closure>] (closure) @170773 [80 bytes]
+  --context (internal)--->  [<function scope>] (object) @237331 [97.2KB]
+  --ia (variable)--->  [Array] (object) @275447 [97KB]
+  --0 (element)--->  [Worker] (native) @388331 [94.4KB]
+  --5 (element)--->  [InternalNode] (native) @5278 [94.1KB]
+  --2 (element)--->  [InternalNode] (native) @6058 [93.1KB]
+  --1 (element)--->  [InternalNode] (native) @5702 [93.1KB]
+  --1 (element)--->  [EventListener] (native) @5704 [93.1KB]
+  --1 (element)--->  [V8EventListener] (native) @4050 [93.1KB]
+  --1 (element)--->  [wb] (closure) @388333 [93KB]
+  --context (internal)--->  [<function scope>] (object) @432297 [92.9KB]
+  --previous (internal)--->  [<function scope>] (object) @432295 [92.2KB]
+  --Ha (variable)--->  [Object] (object) @431163 [91.2KB]
+  --workerLoadingProgress (property)--->  [workerLoadingProgress] (closure) @431171 [91.1KB]
+  --context (internal)--->  [<function scope>] (object) @431159 [91KB]
+  --previous (internal)--->  [<function scope>] (object) @431151 [90.9KB]
+  --bb (variable)--->  [Object] (object) @430579 [152 bytes]
+  --annotationManager (property)--->  [ja] (object) @412797 [3.7KB]
+  --ba (property)--->  [r] (object) @396465 [70.1KB]
+  --we (property)--->  [Detached <div id="viewer"> (native) @388199 [1.3KB]
+  --8 (element)--->  [Detached InternalNode] (native) @2436 [1KB]
+  --1 (element)--->  [Detached InternalNode] (native) @4038 [1KB]
+  --5 (element)--->  [Detached InternalNode] (native) @4674 [96 bytes]
+  --1 (element)--->  [Detached InternalNode] (native) @5868 [96 bytes]
+  --1 (element)--->  [Detached EventListener] (native) @5870 [96 bytes]
+

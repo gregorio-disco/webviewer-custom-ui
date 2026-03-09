@@ -8,27 +8,40 @@ const Internal = () => {
   // if using a class, equivalent of componentDidMount
   useEffect(() => {
     let Core = window.Core;
-    Core.setWorkerPath("/webviewer");
-    Core.disableEmbeddedJavaScript();
-    Core.setCustomFontURL("");
+    let documentViewer = null;
 
-    let documentViewer = new Core.DocumentViewer();
-    documentViewer.setScrollViewElement(scrollView.current);
-    documentViewer.setViewerElement(viewer.current);
-    documentViewer.loadDocument("/files/demo.pdf");
+    try {
+      // Set Core configuration only once
+      if (!window.__coreConfigured) {
+        Core.setWorkerPath("/webviewer");
+        Core.disableEmbeddedJavaScript();
+        Core.setCustomFontURL("");
+        window.__coreConfigured = true;
+      }
+
+      documentViewer = new Core.DocumentViewer();
+      documentViewer.setScrollViewElement(scrollView.current);
+      documentViewer.setViewerElement(viewer.current);
+      documentViewer.loadDocument("/files/demo.pdf");
+    } catch (error) {
+      console.error("Error during WebViewer initialization:", error);
+    }
 
     return () => {
-      if (documentViewer.getDocument()) {
-        documentViewer.getDocument().unloadResources();
-      }
-      documentViewer.closeDocument().then(() => {
-        documentViewer.dispose();
+      // Proper cleanup sequence for PDFtron WebViewer v11+
+      try {
+        // Only call unmount - this handles all cleanup internally
+        // dispose() may trigger WorkerManager errors in v11+
+        if (documentViewer && typeof documentViewer.unmount === 'function') {
+          documentViewer.unmount();
+        }
 
+        // Clear refs to help with garbage collection
         scrollView.current = null;
         viewer.current = null;
-        documentViewer = null;
-        Core = null;
-      });
+      } catch (error) {
+        console.error("Error during WebViewer cleanup:", error);
+      }
     };
   }, []);
 
